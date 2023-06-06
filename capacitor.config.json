@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "TheKattaVendor",
+  "bundledWebRuntime": false,
+  "webDir": "build",
+  "npmClient": "npm",
+  "cordova": {}
+}

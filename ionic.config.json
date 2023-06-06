@@ -1,0 +1,7 @@
+{
+  "name": "TheKattaVendor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

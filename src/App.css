@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bottom-nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid rgba(214, 209, 209, 0.425);
+  background-color: #ffffff;
+  z-index: 5;
+  border-bottom: 1px solid rgba(214, 209, 209, 0.425);
+}
+.bn-tab {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.basic-swipeable-list__container {
+  width: 100%;
+  margin: 16px 0;
+  outline-color: gray;
+  outline-style: solid;
+  outline-width: 1px 0;
+}
+
+.icon {
+  fill: white;
+  width: 32px;
+  height: 32px;
+  align-self: center;
+}
+
+.progressstimer {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 auto 10px auto;
+  position: relative;
+}
+
+.progressstimer img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  -webkit-animation: rotating 1s linear infinite;
+  animation: rotating 1s linear infinite;
+}
+
+.progressstimer .timer {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-family: helvetica;
+  text-align: center;
+}
+
+.pin-code {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pin-code input {
+  border: none;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  font-size: 36px;
+  background-color: #f3f3f3;
+  margin-right: 5px;
+}
+
+.pin-code input:focus {
+  border: 1px solid #573d8b;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
